@@ -1410,6 +1410,10 @@ body {
 }
 
 .promo__main-title {
+  -webkit-animation: fade 0.5s ease-in 0.5s forwards;
+          animation: fade 0.5s ease-in 0.5s forwards;
+  opacity: 0;
+  pointer-events: none;
   margin-bottom: 20px;
 }
 
