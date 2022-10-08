@@ -1369,7 +1369,7 @@ body {
 }
 
 .promo__img img {
-  height: 70vh;
+  min-height: 65vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
